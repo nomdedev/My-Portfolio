@@ -1,0 +1,534 @@
+/* Page 1*/
+body.frame {
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFC5A5;
+}
+
+.musica-playlists{
+position: absolute;
+width: 1296px;
+height: 847px;
+left: 69px;
+top: 174px;
+
+background: #FFFAFA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+}
+
+/* Myplaylist */
+.myPlaylist-container{
+position: absolute;
+width: 490px;
+height: 847px;
+left: 1401px;
+top: 174px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+border-radius: 30px;
+}
+
+.songName-container{
+
+position: absolute;
+width: 548px;
+height: 86px;
+left: 770px;
+top: 672px;
+
+background: rgba(196, 196, 196, 0.25);
+border-radius: 20px;
+}
+
+.musicIcon{
+position: absolute;
+width: 85px;
+height: 85px;
+left: 795px;
+top: 673px;
+
+background: url(descarga.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+border-radius: 95px;
+}
+
+/* artistName-title */
+.artistName-title{
+position: absolute;
+width: 142px;
+height: 31px;
+left: 954px;
+top: 718px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #605E5E;
+}
+
+
+/* songNametitle */
+
+position: absolute;
+width: 285px;
+height: 39px;
+left: 884px;
+top: 677px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* addPlaylist-title */
+
+position: absolute;
+width: 166px;
+height: 53px;
+left: 1139px;
+top: 691px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #000000;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 522px;
+height: 66px;
+left: 783px;
+top: 776px;
+
+background: #FD6969;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+
+
+/* playSong-title */
+
+position: absolute;
+width: 143px;
+height: 39px;
+left: 966px;
+top: 789px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* premiumAccess-title */
+
+position: absolute;
+width: 238px;
+height: 39px;
+left: 917px;
+top: 860px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9D8E8E;
+
+
+
+/* hero-guitar-outro 1 */
+
+position: absolute;
+width: 1296px;
+height: 410px;
+left: 69px;
+top: 174px;
+
+background: url(hero-guitar-outro.jpg);
+border-radius: 30px 30px 0px 0px;
+
+
+/* headerPlaylist-container */
+
+position: absolute;
+width: 346px;
+height: 92px;
+left: 69px;
+top: 36px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* headerSingup-container */
+
+position: absolute;
+width: 490px;
+height: 92px;
+left: 1401px;
+top: 36px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* headerSong-container */
+
+position: absolute;
+width: 346px;
+height: 92px;
+left: 979px;
+top: 37px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* headerArtist-container */
+
+position: absolute;
+width: 346px;
+height: 92px;
+left: 524px;
+top: 36px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* Playlist */
+
+position: absolute;
+width: 298px;
+height: 51px;
+left: 93px;
+top: 57px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Artista */
+
+position: absolute;
+width: 298px;
+height: 51px;
+left: 548px;
+top: 58px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Canciones */
+
+position: absolute;
+width: 298px;
+height: 51px;
+left: 1003px;
+top: 57px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* artistNameMain */
+
+position: absolute;
+width: 292px;
+height: 118px;
+left: 123px;
+top: 197px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 65px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* AlbumNameMain */
+
+position: absolute;
+width: 346px;
+height: 59px;
+left: 69px;
+top: 495px;
+
+font-family: Pontano Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* songLists-container */
+
+position: absolute;
+width: 624px;
+height: 411px;
+left: 99px;
+top: 597px;
+
+background: #FFFDFD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+
+
+/* songName-list2 */
+
+position: absolute;
+width: 548px;
+height: 45px;
+left: 136px;
+top: 733px;
+
+font-family: Pontano Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 20px;
+/* or 67% */
+text-indent: 1.5px;
+
+color: #000000;
+
+
+
+/* songName-list3 */
+
+position: absolute;
+width: 548px;
+height: 45px;
+left: 136px;
+top: 832px;
+
+font-family: Pontano Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 20px;
+/* or 67% */
+text-indent: 1.5px;
+
+color: #000000;
+
+
+
+/* songName-list4 */
+
+position: absolute;
+width: 548px;
+height: 45px;
+left: 136px;
+top: 939px;
+
+font-family: Pontano Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 20px;
+/* or 67% */
+text-indent: 1.5px;
+
+color: #000000;
+
+
+
+/* songName-list1 */
+
+position: absolute;
+width: 548px;
+height: 45px;
+left: 136px;
+top: 626px;
+
+font-family: Pontano Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 20px;
+/* or 67% */
+text-indent: 1.5px;
+
+color: #000000;
+
+
+
+/* playlistName-title */
+
+position: absolute;
+width: 490px;
+height: 87px;
+left: 1401px;
+top: 210px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* singUp-title */
+
+position: absolute;
+width: 490px;
+height: 51px;
+left: 1401px;
+top: 57px;
+
+font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* musicButtons */
+
+position: absolute;
+width: 412px;
+height: 79px;
+left: 1448px;
+top: 912px;
+
+background: #FBF6F6;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+
+/* play-button 1 */
+
+position: absolute;
+width: 75px;
+height: 70.95px;
+left: 1616px;
+top: 916px;
+
+background: url(play-button.jpg);
+border-radius: 40px;
+
+
+/* next-button-png-image 1 */
+
+position: absolute;
+width: 71px;
+height: 62px;
+left: 1697px;
+top: 921px;
+
+background: url(next-button-png-image.jpg);
+border-radius: 75px;
+
+
+/* next-button-png-image 2 */
+
+position: absolute;
+width: 66px;
+height: 62px;
+left: 1610px;
+top: 921px;
+
+background: url(next-button-png-image.jpg);
+border-radius: 75px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
