@@ -198,15 +198,15 @@ p {
 }
 /* End Header section */
 
-/* Hero Section */
-#hero {
+/* bckPage Section */
+#bckPage {
 	background-image: url(./img/paper-business-finance-document.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
 }
-#hero::after {
+#bckPage::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -217,13 +217,13 @@ p {
 	opacity: 0.7;
 	z-index: -1;
 }
-#hero .hero {
+#bckPage .bckPage {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero h1 {
+#bckPage h1 {
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
@@ -232,17 +232,17 @@ p {
 	animation: text_reveal 0.5s ease forwards;
 	animation-delay: 1s;
 }
-#hero h1:nth-child(1) {
+#bckPage h1:nth-child(1) {
 	animation-delay: 1s;
 }
-#hero h1:nth-child(2) {
+#bckPage h1:nth-child(2) {
 	animation-delay: 2s;
 }
-#hero h1:nth-child(3) {
+#bckPage h1:nth-child(3) {
 	animation: text_reveal_name 0.5s ease forwards;
 	animation-delay: 3s;
 }
-#hero h1 span {
+#bckPage h1 span {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -252,17 +252,17 @@ p {
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
-#hero h1:nth-child(1) span {
+#bckPage h1:nth-child(1) span {
 	animation-delay: 0.5s;
 }
-#hero h1:nth-child(2) span {
+#bckPage h1:nth-child(2) span {
 	animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) span {
+#bckPage h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
+/* End bckPage Section */
 
 /* Services Section */
 #services .services {
@@ -576,11 +576,14 @@ p {
 		font-size: 6rem;
 	}
 
-	/* Hero */
-	#hero h1 {
+	/* bckPage
+ */
+	#bckPage
+ h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
+	/* End bckPage
+ */
 
 	/* Services Section */
 	#services .service-bottom .service-item {
